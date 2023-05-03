@@ -6,7 +6,7 @@ import { userConfig } from "./authConfig";
  * Attaches a given access token to  API call.
  * @param accessToken 
  */
-export async function callMsGraph(accessToken) {
+export async function UserApiCall(accessToken) {
     const headers = new Headers();
     const bearer = `Bearer ${accessToken}`;
    
